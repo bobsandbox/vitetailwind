@@ -23,6 +23,7 @@ define('JS_LOAD_IN_FOOTER', true); // load scripts in footer?
 
 // deafult server address, port and entry point can be customized in vite.config.json
 define('VITE_SERVER', 'http://localhost:3000');
+//define('VITE_SERVER', 'http://vitetailwind.local');
 define('VITE_ENTRY_POINT', '/main.js');
 
 // enqueue hook

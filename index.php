@@ -30,4 +30,36 @@
     </div>
 </div>
 
+<div class="max-w-screen-lg bg-gray-700 mx-auto rounded-xl">
+    content<br>test
+    content<br>test
+
+    content<br>test
+    content<br>test
+    content<br>test
+    content<br>test
+
+    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+    <div class="shrink-0">
+        <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+    </div>
+    <div>
+        <div class="text-xl font-medium text-black">ChitChat</div>
+        <p class="text-slate-500">You have a new message!</p>
+
+        <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+        
+        <a class="group px-4 py-3 bg-green-300 hover:bg-black inline-block">
+            <small class="text-slate-700 group-hover:color-white">test</small>
+            <span class="text-slate-400 group-hover:color-white">test</span>
+            <div class="">
+                >
+            </div> 
+        </a>
+
+    </div>
+    </div>
+
+</div>
+
 <?php get_footer() ?>
