@@ -12,12 +12,17 @@
 //import vue from '@vitejs/plugin-vue'
 import { defineConfig } from "vite";
 import liveReload from "vite-plugin-live-reload";
+import inject from "@rollup/plugin-inject";
 const { resolve } = require("path");
 const fs = require("fs");
 
 // https://vitejs.dev/config
 export default defineConfig({
   plugins: [
+    inject({
+      $: "jquery",
+      jQuery: "jquery",
+    }),
     //vue(),
     liveReload(__dirname + "/**/*.php"),
   ],
